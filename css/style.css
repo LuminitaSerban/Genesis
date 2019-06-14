@@ -22,7 +22,8 @@ body {
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1220px;
+  min-width: 1200px;
   margin: 10px auto;
   padding: 5px;
   /* background: bisque; */
