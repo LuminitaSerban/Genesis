@@ -9,30 +9,46 @@
 </head>
 
 <body>
-  
+  <style>
+    .top-nav-container{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .block-six-img {
+      margin: 0 auto;
+      width: 1256px;
+    }
+    .second-block .container {
+      justify-content: space-between;
+      display: flex;
+    }
+  </style>
   <div class="background"> 
     <img class="header-bg" src="images/bgheader.jpg" alt="header_background"> 
     <div class="container">
       <div class="header">
-        <div class="navigation">
-          <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Консультация</a></li>
-            <li><a href="#">Вопросы</a></li>
-           <li><a href="#">Услуги</a></li>
-          </ul> 
-        </div>  
-        <div class="logo-img">
-          <img src="images/logo_big.png" alt="logo_big">
-        </div>  
-        <div class="navigation_2">
+        <div class="top-nav-container">
+          <div class="navigation">
             <ul>
-              <li><a href="#">Команда</a></li>
-              <li><a href="#">Фото</a></li>
-              <li><a href="#">Отзывы</a></li>
-             <li><a href="#">Контакты</a></li>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Консультация</a></li>
+              <li><a href="#">Вопросы</a></li>
+            <li><a href="#">Услуги</a></li>
             </ul> 
-        </div>  
+          </div>  
+          <div class="logo-img">
+            <img src="images/logo_big.png" alt="logo_big">
+          </div>  
+          <div class="navigation_2">
+              <ul>
+                <li><a href="#">Команда</a></li>
+                <li><a href="#">Фото</a></li>
+                <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Контакты</a></li>
+              </ul> 
+          </div>
+        </div>
         <div class="language">
           <label>
             <input type="radio" name="language" value="Py" checked>
